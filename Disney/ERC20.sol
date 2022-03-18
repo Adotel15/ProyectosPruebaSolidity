@@ -45,8 +45,8 @@ interface ERC20
 contract ERC20Basic is ERC20
 {
 
-    string public constant name = "DisneyToken";
-    string public constant symbol = "DSY";
+    string public constant name = "Token Lotearia";
+    string public constant symbol = "LOT";
     uint8 public constant decimals = 2;
 
     mapping(address => uint) balances;
