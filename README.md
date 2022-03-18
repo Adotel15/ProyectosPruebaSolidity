@@ -1,1 +1,2 @@
-# Proyectos de Prática con Solidity
+# Proyectos de Práctica con Solidity
+
