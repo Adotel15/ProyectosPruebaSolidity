@@ -3,6 +3,11 @@ pragma solidity >=0.4.4 <0.7.0;
 pragma experimental ABIEncoderV2;
 import "./ERC20.sol";
 
+/*
+    Proyecto de de prueba de un SmartContract que es una lotería, los que quieran jugar tiene que comprar el token LOT, y con él podrán comprar boletos,
+    y luego el msg.sender puede llamar a la función para elegir a un ganador de manera aleatoria.
+*/
+
 contract Loteria
 {
     // Instancia del Token LOT
