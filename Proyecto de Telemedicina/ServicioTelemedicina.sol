@@ -4,6 +4,19 @@ pragma experimental ABIEncoderV2;
 import "./ERC20.sol";
 import "./OperacionesBasicas.sol";
 
+/*
+    Contrato de prueba para simular un caso real de uso donde una empresa Aseguradora, quiere implementar sus servicios a través de tecnología Blockchain
+    y los Smart Contracts.
+    Para practicar la conexión entre SmartContracts asi como las factories.
+    Hay tres contratos principales:
+        1. InsuranceFactory:
+            EL contrato desde donde la aseguradora podrá gestionar a todos sus clientes (dar de alta, dar de baja, pagos, ofrecer servicios...).
+        2. InsuranceHealthRecord:
+            Contrato personal donde se almacenan los datos de cada cliente, asi como les da la posibilidad de pedir servicios.
+        3. Laboratorio:
+            Contrato de cada laboratorio a terceros que dará sus servicios especializados, desde este contrato los laboratorios podrán gestionar sus servicios.
+
+*/
 
 // ----------------- CONTRATO PRINCIPAL -----------------------
 
