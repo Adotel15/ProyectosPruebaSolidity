@@ -3,6 +3,10 @@ pragma solidity 0.8.12;
 pragma experimental ABIEncoderV2;
 import "./ERC20.sol";
 
+/*
+    Contrato de prueba para practicar, un sistema de pagos con tokens para un parque de atracciones. En este caso Disney :).
+*/
+
 contract Disney{
 
     // ---------------------------- DECLARACIONES INICIALES ----------------------------
