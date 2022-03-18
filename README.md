@@ -1,2 +1,1 @@
-# Servicio-Telemedicina
-Proyecto de prueba con Solidity de una Aseguradora
+# Proyectos de Prática con Solidity
